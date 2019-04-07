@@ -1,3 +1,0 @@
-/home/piotr/Documents/Zad1_clear/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/piotr/Documents/Zad1_clear/cmake-build-debug/CMakeFiles/Zad1.dir
-/home/piotr/Documents/Zad1_clear/cmake-build-debug/CMakeFiles/edit_cache.dir

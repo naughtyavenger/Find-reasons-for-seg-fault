@@ -1,25 +1,29 @@
-# silver-robot
+# Find-reasons-for-seg-fault
 
-I need help.
+Both tasks relate to "include/List.h" file.
 
-I don't know why I got segm fault only when an EMPTY list
-is going to iterated with end() function
+Task 1.
+Find a reason why segmentation fault happens when
+an empty list is going to be iterated with end() function.
 
-for ex.
+Examples of segmentation fault:
 
-1. exmpl
-
+1.
 for( auto it = list.begin(); it != list.end(); ++it) {
      std::cout << *it << " ";
-}
 
-2. exmpl
-
+2.
 auto it = list.end();
 
-3. exmpl
-
+3.
 auto it = list.begin();
 
 if( it == list.end() )
     std::cout << "sth";
+
+Task 2.
+Find a reason why memory leaks happen.
+
+You can check it by using Valgrind program.
+
+usage: valgrind ./build/find_mistakes
